@@ -80,7 +80,7 @@ public class Input implements IInput {
         }
         int key = waitingKey;
         waitingKey = null;
-        System.out.println("Key " + key + " detected for waitForKeyPress");
+       
         return key;
     }
 }

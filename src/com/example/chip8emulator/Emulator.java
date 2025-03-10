@@ -34,7 +34,7 @@ public class Emulator extends Application {
 
         // Home page setup
         VBox homeRoot = new VBox(10);
-        TextField folderPathField = new TextField("C:\\Users\\aarat\\Downloads\\chip8\\games");
+        TextField folderPathField = new TextField("games");
         Button loadButton = new Button("Load Games");
         ListView<String> gameList = new ListView<>();
         homeRoot.getChildren().addAll(new Label("Folder Path:"), folderPathField, loadButton, gameList);
