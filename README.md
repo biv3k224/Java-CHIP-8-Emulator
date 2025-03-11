@@ -24,7 +24,7 @@ A **JavaFX-based** emulator for the **CHIP-8 virtual machine**, designed to run 
 ### 🔧 Running from Source  
 1⃣ **Clone or Download the Project**  
    ```sh
-   git clone https://github.com/your-repo/chip8-emulator.git
+   git clone https://github.com/Java-CHIP-8-Emulator/chip8-emulator.git
    cd chip8-emulator
    ```
 
